@@ -19,5 +19,3 @@ This is a basic health information management system built to allow doctors to m
 - Postman (for API testing)
 
 ---
-
-# Getting Started
