@@ -44,6 +44,7 @@ const router = express.Router();
 router.post("/", registerClient);
 
 /**
+ * 
  * @swagger
  * /clients/enroll:
  *   post:
