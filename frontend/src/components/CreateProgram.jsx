@@ -14,7 +14,7 @@ export default function CreateProgram() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-blue-100 flex items-center justify-center p-6">
       <div className="bg-white shadow-xl rounded-2xl p-8 w-full max-w-md transform transition-all hover:scale-105 hover:shadow-2xl duration-300">
-        <h2 className="text-3xl font-bold mb-6 text-center text-blue-800 tracking-tight">
+        <h2 className="text-3xl font-bold mb-8 text-center text-blue-800 tracking-tight">
           Create Health Program
         </h2>
         <form onSubmit={handleSubmit} className="space-y-6">
