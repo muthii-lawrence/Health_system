@@ -1,4 +1,11 @@
-node_modules/
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.jsonnode_modules/
 .env
 dist/
 build/
