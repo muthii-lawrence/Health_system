@@ -15,8 +15,8 @@ This is a basic health information management system built to allow doctors to m
 
 - Node.js
 - Express.js
-- SQLite (or MySQL/PostgreSQL)
+- Supabase db
 - React (for frontend)
 - Postman (for API testing)
-
+- swagger ui for API documentation
 ---
