@@ -16,6 +16,7 @@ const router = express.Router();
 
 /**
  * @swagger
+ * 
  * /api/clients:
  *   post:
  *     summary: Register a new client
