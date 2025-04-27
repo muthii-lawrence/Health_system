@@ -58,19 +58,13 @@ router.post("/", registerClient);
  *             type: object
  *             required:
  *               - fullName
- *               - email
- *               - phone
+ *        
  *               - programId
  *             properties:
  *               fullName:
  *                 type: string
  *                 example: "Jane Doe"
- *               email:
- *                 type: string
- *                 example: "jane.doe@example.com"
- *               phone:
- *                 type: string
- *                 example: "0712345678"
+ *              
  *               programId:
  *                 type: integer
  *                 example: 2
