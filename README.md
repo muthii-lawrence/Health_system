@@ -1,4 +1,5 @@
 # Health Information System
+http://localhost:5000/api-docs
 
 This is a basic health information management system built to allow doctors to manage clients and enroll them in various health programs such as TB, HIV, and Malaria. The system also exposes client profiles via an API for integration with other systems.
 
