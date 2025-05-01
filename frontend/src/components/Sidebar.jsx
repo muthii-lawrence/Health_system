@@ -8,9 +8,12 @@ export default function Sidebar() {
         <div className="bg-white/10 p-3 rounded-full">
           <List size={24} className="text-blue-200" />
         </div>
-        <h2 className="text-2xl font-bold text-white tracking-tight">
-          Health System
-        </h2>
+        <Link to="/">
+          {" "}
+          <h2 className="text-2xl font-bold text-white tracking-tight">
+            Health System
+          </h2>
+        </Link>
       </div>
       <nav className="flex flex-col p-4 space-y-2 flex-grow">
         <SidebarLink
@@ -35,7 +38,7 @@ export default function Sidebar() {
         />
       </nav>
       <div className="p-4 text-sm text-blue-200 text-center border-t border-blue-800">
-        © 2024 Health Management
+        © 2025 Health Management
       </div>
     </div>
   );
