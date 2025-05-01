@@ -1,4 +1,3 @@
-// src/pages/LandingPage.jsx
 import { useEffect, useState } from "react";
 import api from "../api";
 
@@ -16,7 +15,7 @@ export default function LandingPage() {
   const totalPrograms = programs.length;
 
   return (
-    <div className="p-6">
+    <div className="p-6 my-10">
       <h1 className="text-3xl font-bold mb-6 text-blue-900">
         Welcome to Health System
       </h1>
