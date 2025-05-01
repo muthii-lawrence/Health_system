@@ -1,4 +1,4 @@
-//resposive sidebar//
+//resposive sidebar
 import { Link } from "react-router-dom";
 import { PlusCircle, UserPlus, Search, List, Menu } from "lucide-react";
 import { useState } from "react";
